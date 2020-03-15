@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assers/css/w3.css" />
+		<link rel="stylesheet" href="assers/css/w3.css" />	
 	</head>
 	<body class="is-preload">
 
@@ -97,33 +97,39 @@
 								</div>
 							</div>
 							<p></p>
-							<table class="w3-table-all" id="myTable">
-								<colgroup>
-									<col width="10%" />
-									<col width="10%" />
-									<col width="10%" />
-								</colgroup>
-								<tr>
-									<th>Examination</th>
-									<th>Passing Year</th>
-									<th>Percentage/Percentile</th>
-								</tr>
-								<tr>
-									<td>SSC Examination</td>
-									<td>2016-2017</td>
-									<td>89.2%</td>
-								</tr>
-								<tr>
-									<td>HSC Examination</td>
-									<td>2018-2019</td>
-									<td>69%</td>
-								</tr>
-								<tr>
-									<td>JEE Mains</td>
-									<td>2018-2019</td>
-									<td>90</td>
-								</tr>
-							</table>
+							<div style="overflow-x:auto;">
+								<table class="w3-table-all" id="myTable">
+									<colgroup>
+										<col width="10%" />
+										<col width="10%" />
+										<col width="10%" />
+									</colgroup>
+									<thead role="rowgroup">
+									<tr role="row">
+										<th role="columnheader">Examination</th>
+										<th role="columnheader">Passing Year</th>
+										<th role="columnheader">Percentage/Percentile</th>
+									</tr>
+									</thead>
+									<tbody role="row">
+									<tr role="row">
+										<td role="cell">SSC Examination</td>
+										<td role="cell">2016-2017</td>
+										<td role="cell">89.2%</td>
+									</tr>
+									<tr role="row">
+										<td role="cell">HSC Examination</td>
+										<td role="cell">2018-2019</td>
+										<td role="cell">69%</td>
+									</tr>
+									<tr>
+										<td role="cell">JEE Mains</td>
+										<td role="cell">2018-2019</td>
+										<td role="cell">90</td>
+									</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 					</section>
 
